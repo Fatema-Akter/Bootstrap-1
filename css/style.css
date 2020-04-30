@@ -1,3 +1,18 @@
 .height{
 	min-height: 100vh;
 }
+.title-underline{
+	width: 150px;
+	height: 5px;
+	margin: 0 auto;
+}
+.height-80{
+	min-height: 80vh;
+}
+.about-picture{
+	background: url(../img/about.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
