@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>carousel-practice</title>
+	<!--bootstrap min-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 py-5 bg-info mx-auto">
+				<section id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!--indicator-->
+					<ul class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="drop"></li>
+						<li data-target="#myCarousel" data-slide-to="1" class="drop"></li>
+						<li data-target="#myCarousel" data-slide-to="2" class="drop"></li>
+						<li data-target="#myCarousel" data-slide-to="3" class="drop"></li>
+					</ul>
+
+					<!--img-->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/carousel-1.jpg" alt="" class="d-block w-100 active">
+						</div>
+						<div class="carousel-item">
+							<img src="img/carousel-2.jpg" alt="" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/carousel-3.jpg" alt="" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/carousel-4.jpg" alt="" class="d-block w-100">
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--jquery-->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

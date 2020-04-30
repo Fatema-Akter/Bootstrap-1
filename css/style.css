@@ -22,3 +22,9 @@
 	background: linear-gradient(to right, rgba(0,0,0,.5),rgba(0,0,0,.9)),url(../img/filler-img.jpeg)center/cover no-repeat fixed;
 	*/
 }
+.drop{
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+	background-color: #900e0e !important;
+}
